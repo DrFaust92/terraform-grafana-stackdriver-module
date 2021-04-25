@@ -17,7 +17,8 @@ provider "google" {
 
 
 module "data_source" {
-  source = "./gcp-source"
+  source  = "./gcp-source"
+  version = "<VERSION>"
 
   project            = "some-gcp-project"
   service_account_id = "some-account-id"
