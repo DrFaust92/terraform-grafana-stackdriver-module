@@ -57,8 +57,8 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_project"></a> [project](#input\_project) | Google project to create resources in | `string` | `""` | no |
-| <a name="input_service_account_id"></a> [service\_account\_id](#input\_service\_account\_id) | GCP service account name | `string` | `""` | no |
+| <a name="input_project"></a> [project](#input\_project) | Google project to create resources in | `string` | n/a | yes |
+| <a name="input_service_account_id"></a> [service\_account\_id](#input\_service\_account\_id) | GCP service account name | `string` | n/a | yes |
 
 ## Outputs
 
