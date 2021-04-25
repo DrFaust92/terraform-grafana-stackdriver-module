@@ -17,7 +17,7 @@ provider "google" {
 
 
 module "data_source" {
-  source  = "./gcp-source"
+  source  = "DrFaust92/stackdriver-module/grafana"
   version = "<VERSION>"
 
   project            = "some-gcp-project"
