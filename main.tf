@@ -1,7 +1,7 @@
 resource "google_service_account" "data_source" {
   account_id   = var.service_account_id
   display_name = "Grafana Service Account"
-  description = "Grafana Service Account"
+  description  = "Grafana Service Account"
   project      = var.project
 }
 
