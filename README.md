@@ -62,5 +62,10 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_grafana_data_source_id"></a> [grafana\_data\_source\_id](#output\_grafana\_data\_source\_id) | Grafana data source ID |
+| <a name="output_service_account_email"></a> [service\_account\_email](#output\_service\_account\_email) | Google service account email |
+| <a name="output_service_account_id"></a> [service\_account\_id](#output\_service\_account\_id) | Google service account ID |
+| <a name="output_service_account_name"></a> [service\_account\_name](#output\_service\_account\_name) | Google service account name |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
