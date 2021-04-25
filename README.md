@@ -1,3 +1,7 @@
+# Terraform Grafana Stackdriver Module
+
+This module provisions a Grafana stackdriver(GCP) data source and a GCP Service Account with minimal permissions.
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
