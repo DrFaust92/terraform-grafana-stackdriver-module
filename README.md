@@ -2,6 +2,28 @@
 
 This module provisions a Grafana stackdriver(GCP) data source and a GCP Service Account with minimal permissions.
 
+## Usage
+
+```terraform
+provider "grafana" {
+  url  = "SOME-URL"
+  auth = "SOME-TOKEN" // dont keep this in your version control in clear text
+}
+
+provider "google" {
+  project = "SOME-PROJECT"
+  region  = "us-central1"
+}
+
+
+module "data_source" {
+  source  = "./gcp-source"
+  project = "some-gcp-project"
+  service_account_id = "some-account-id"
+}
+
+```
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
